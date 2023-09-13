@@ -33,3 +33,20 @@ body{
     opacity: .5;
     margin-bottom: 25px;
 }
+
+/* Mobile Responsiveness */
+@media(max-width: 768px){
+    body{
+        margin-top: 0;
+    }
+    .main{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .main h2{
+        font-size:24px;
+    }
+    .main p{
+        font-size: 14px;
+    }
+}
